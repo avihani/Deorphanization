@@ -1,0 +1,10 @@
+*.ipynb_checkpoints
+old/*
+#The following files were too big
+descriptor_models/*.rds
+mouseOR_alignment/*.rds
+compiled_desc_resp/compiled_untested_desc.csv
+compiled_desc_resp/compiled_untested_desc.txt
+compiled_desc_resp/filtered_all_desc.csv
+compiled_desc_resp/odor_response_stats.csv
+
