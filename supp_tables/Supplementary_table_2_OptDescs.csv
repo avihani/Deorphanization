@@ -1,0 +1,66 @@
+,Abbrev,Long_name,Category
+0,nAA,number of aromatic atoms, Constitutional indices
+1,nBM,number of multiple bonds, Constitutional indices
+2,nAB,number of aromatic bonds, Constitutional indices
+3,nN,number of Nitrogen atoms, Constitutional indices
+4,N%,percentage of N atoms, Constitutional indices
+5,nCsp2,number of sp2 hybridized Carbon atoms, Constitutional indices
+6,max_conj_path,maximum number of atoms that can be in conjugation with each other, Constitutional indices
+7,RCI,ring complexity index, Ring descriptors
+8,NRS,number of ring systems, Ring descriptors
+9,NNRS,normalized number of ring systems, Ring descriptors
+10,nR06,number of 6-membered rings, Ring descriptors
+11,ARR,aromatic ratio, Ring descriptors
+12,AP,aromatic proportion, Ring descriptors
+13,D/Dtr06,distance/detour ring index of order 6, Ring descriptors
+14,Qindex,quadratic index, Topological indices
+15,PCD,difference between multiple path count and path count, Walk and path counts
+16,GATS8m,Geary autocorrelation of lag 8 weighted by mass, 2D autocorrelations
+17,GATS8v,Geary autocorrelation of lag 8 weighted by van der Waals volume, 2D autocorrelations
+18,GGI4,topological charge index of order 4, 2D autocorrelations
+19,P_VSA_LogP_5,"P_VSA-like on LogP, bin 5", P_VSA-like descriptors
+20,P_VSA_MR_6,"P_VSA-like on Molar Refractivity, bin 6", P_VSA-like descriptors
+21,P_VSA_e_3,"P_VSA-like on Sanderson electronegativity, bin 3", P_VSA-like descriptors
+22,P_VSA_i_4,"P_VSA-like on ionization potential, bin 4", P_VSA-like descriptors
+23,P_VSA_ppp_ar,"P_VSA-like on potential pharmacophore points, ar &#8211; aromatic atoms", P_VSA-like descriptors
+24,P_VSA_ppp_con,"P_VSA-like on potential pharmacophore points, con &#8211; conjugated atoms", P_VSA-like descriptors
+25,P_VSA_ppp_cyc,"P_VSA-like on potential pharmacophore points, cyc &#8211; atoms belonging to cycles", P_VSA-like descriptors
+26,P_VSA_charge_4,"P_VSA-like on partial charges, bin 4", P_VSA-like descriptors
+27,HOMA,Harmonic Oscillator Model of Aromaticity index, Geometrical descriptors
+28,CMBL,conjugated maximum bond length, Geometrical descriptors
+29,AROM,aromaticity index, Geometrical descriptors
+30,nRCOOR,number of esters (aliphatic), Functional group counts
+31,nRCHO,number of aldehydes (aliphatic), Functional group counts
+32,nOHs,number of secondary alcohols, Functional group counts
+33,nSH,number of thiols, Functional group counts
+34,nPyrazines,number of Pyrazines, Functional group counts
+35,C-025,R&#8211;CR&#8211;R, Atom-centred fragments
+36,C-028,R&#8211;CR&#8211;X, Atom-centred fragments
+37,C-036,Al-CH=X, Atom-centred fragments
+38,O-060,Al-O-Ar / Ar-O-Ar / R..O..R / R-O-C=X, Atom-centred fragments
+39,S-106,R-SH, Atom-centred fragments
+40,SsSH,Sum of sSH E-states, Atom-type E-state indices
+41,NsSH,Number of atoms of type sSH, Atom-type E-state indices
+42,minsSH,Mimimum sSH, Atom-type E-state indices
+43,MaxsSH,Maximum sSH, Atom-type E-state indices
+44,T(N..N),sum of topological distances between N..N, 2D Atom Pairs
+45,B01[C-N],Presence/absence of C &#8211; N at topological distance 1, 2D Atom Pairs
+46,B02[C-N],Presence/absence of C &#8211; N at topological distance 2, 2D Atom Pairs
+47,B03[N-N],Presence/absence of N &#8211; N at topological distance 3, 2D Atom Pairs
+48,B07[C-O],Presence/absence of C &#8211; O at topological distance 7, 2D Atom Pairs
+49,F01[C-N],Frequency of C &#8211; N at topological distance 1, 2D Atom Pairs
+50,F02[C-N],Frequency of C &#8211; N at topological distance 2, 2D Atom Pairs
+51,F03[C-N],Frequency of C &#8211; N at topological distance 3, 2D Atom Pairs
+52,F03[C-O],Frequency of C &#8211; O at topological distance 3, 2D Atom Pairs
+53,F03[N-N],Frequency of N &#8211; N at topological distance 3, 2D Atom Pairs
+54,F07[C-O],Frequency of C &#8211; O at topological distance 7, 2D Atom Pairs
+55,G(N..N),sum of geometrical distances between N..N, 3D Atom Pairs
+56,Uc,unsaturation count, Molecular properties
+57,Ui,unsaturation index, Molecular properties
+58,MDEC-33,molecular distance edge between all tertiary carbons, MDE descriptors
+59,MDEO-12,molecular distance edge between all primary and secondary oxygens, MDE descriptors
+60,MDEN-22,molecular distance edge between all secondary nitroqens, MDE descriptors
+61,nLevel6,number of neighbouring atoms of the chiral centre (level 6), Chirality descriptors
+62,phLevel1,number of neighbouring N/O atoms of the chiral centre (level 1), Chirality descriptors
+63,s4_numSharedNeighbors,number of shared neighbours in substituent 4 with other substituents, Chirality descriptors
+64,s4_numRotBonds,number of rotatable bonds of the substituent 4, Chirality descriptors
