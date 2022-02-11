@@ -3,8 +3,19 @@ old/*
 #The following files were too big
 descriptor_models/*.rds
 mouseOR_alignment/*.rds
+
 compiled_desc_resp/compiled_untested_desc.csv
 compiled_desc_resp/compiled_untested_desc.txt
 compiled_desc_resp/filtered_all_desc.csv
 compiled_desc_resp/odor_response_stats.csv
+
+ohe_features/rr_odorCV_cor_models_75.rds
+ohe_features/rr_odorCV_cor_models.rds
+ohe_features/rr_odorCV_cos_models_75.rds
+ohe_features/rr_odorCV_cos_models.rds
+ohe_features/rr_odorCV_Euc_models_75.rds
+ohe_features/rr_odorCV_Euc_models.rds
+ohe_features/rr_odorCV_preds_all_metrics_75.rds
+ohe_features/rr_odorCV_preds_all_metrics.rds
+
 
