@@ -1,3 +1,5 @@
+**(This repo is still under development)**
+
 # Deorphanization paper analysis scripts and notebooks
 ## Jupyter notebooks and other files to recapitulate key analyses for our deorphanization paper
 
@@ -10,8 +12,6 @@ Module/package dependencies (with version control) are described in Jupyter note
 Model developments were done in notebooks but run as scripts.
 
 Some files were too big for upload to GitHub (see .gitignore). Code to fully reproduce such files has been made available.
-
-**(This repo is still under development)**
 
 ## List of Jupyter notebooks
 
